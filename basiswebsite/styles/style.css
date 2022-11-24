@@ -1,0 +1,153 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+button, summary {
+	cursor: pointer;
+}  
+
+img{
+	display: block;
+	width: 100%;
+}
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text:#111;
+	--color-background:#eee;
+	--font-family: 'Quicksand', sans-serif;
+	scroll-behavior: smooth;
+	
+}
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+@font-face {
+	font-family: var(--font-family);
+	src: url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+}
+
+/* jouw code */
+body{
+	
+}
+
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav img{
+	margin-left: 1em;
+	width: 7em;
+}
+
+nav img:nth-of-type(2){
+	height: 3em;
+	width: 3em;
+}
+
+
+main h1{
+	text-align: center;
+	font-family: var(--font-family);
+	font-weight: 600;
+}
+
+main h2{
+	font-family: var(--font-family);
+	font-weight: 600;
+	text-align: center;
+}
+
+main p{
+	font-family: var(--font-family);
+	font-weight: 400;
+	color: #888888;
+
+}
+
+main section:first-of-type a{
+	display: block;
+	font-family: var(--font-family);
+	margin: auto;
+	width: fit-content;
+	margin-top: 1em;
+	color: rgb(50, 149, 97);
+	font-weight: 600;
+	text-decoration: none;
+
+}
+
+main section:nth-of-type(3) p{
+	text-align: center;
+	font-family: var(--font-family);
+	font-weight: 600;
+	font-size: 2.2em;
+	color: black;
+
+}
+
+main section:nth-of-type(3) img{
+	height: 20em;
+	width: auto;
+	margin-top: 3em;
+	margin: 0 auto;
+}
+
+main section:nth-of-type(3){
+	background-color: #f9f6f4;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+main section:nth-of-type(3) a{
+	color: white;
+	font-family: var(--font-family);
+	font-weight: 600;
+	padding: 0.7em 5em;
+	background-color: #329561;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.1em;
+
+	
+}
+
+footer{
+	background-color: #222;
+	margin-top: 1em;
+	padding: 1em;
+	padding-top: 7em;
+}
+
+footer img{
+	margin-left: 1em;
+	width: 7em;
+}
+
+
+footer:nth-of-type(3) p{
+	color: #329561;
+}
