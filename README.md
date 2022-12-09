@@ -42,7 +42,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Homepage  
   
   ![madibakitchen nl_ (2)](https://user-images.githubusercontent.com/118191221/206700379-e77335a9-8632-43cf-ad00-c1ff4a46fdd1.png)
-  <img src="./readme-images/Home.png" width="375px" alt="Homescherm">
+
 
   
   #### Screenshot(s) van de tweede pagina (small screen):
@@ -51,7 +51,7 @@ Reserveren
   ![madibakitchen nl_reserveren_](https://user-images.githubusercontent.com/118191221/206700696-3dd08d07-0f10-49b2-a381-658abc0150e6.png)
 
 
-  <img src="./readme-images/Menu.png" width="375px" alt="Reserveringspagina">
+ 
  
 </details>
 
