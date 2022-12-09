@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauw
 
   #### Je focus:
-  Responsive
+  Service
  
 </details>
 
@@ -40,11 +40,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Homepage  
-  <img src="./readme-images/Home.png" width="375px" alt="omschrijving van de pagina">
+  
+  ![madibakitchen nl_ (2)](https://user-images.githubusercontent.com/118191221/206700379-e77335a9-8632-43cf-ad00-c1ff4a46fdd1.png)
+  <img src="./readme-images/Home.png" width="375px" alt="Homescherm">
 
+  
   #### Screenshot(s) van de tweede pagina (small screen):
-  Menukaart 
-  <img src="./readme-images/Menu.png" width="375px" alt="omschrijving van de pagina">
+Reserveren
+ 
+  ![madibakitchen nl_reserveren_](https://user-images.githubusercontent.com/118191221/206700696-3dd08d07-0f10-49b2-a381-658abc0150e6.png)
+
+
+  <img src="./readme-images/Menu.png" width="375px" alt="Reserveringspagina">
  
 </details>
 
@@ -57,27 +64,43 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  
+  1. De site is niet heel toegangkelijk voor blinde.
+  2. Afbeeldingen missen alt tags
+  
+  
+  
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  
+  Alle afbeeldingen moeten beschikken over alt tags.
 
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  
+  Je kan makkelijk door de site heen navigeren met je muis en toetsenbord.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  
+  NVT
 
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  
+  NVT
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  
+  NVT
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
@@ -117,20 +140,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  1. Hoe selecteer ik een p in een lijst.
+  2. Hoe voeg ik een afbeelding toe via css.
+  3. Hoe annimeer ik een afbeelding
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Menu items in een UL zetten
+  - Footer items in Li zetten
+  - Goed opweg
 
 </details>
 
@@ -144,26 +164,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik vond het lasitg om een afbeelding te animeren.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+ 1. Hoe geef ik een afbeelding een overlay
+ 2. Hoe zet ik tekst in een afbeelding
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Overlay hoeft niet, mag foto photoshoppen
+  - Let op kleurgebruik!
+  
 
 </details>
 
@@ -214,18 +229,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Het lukt me niet om een menu in een menu te maken
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  1. Hoe maak ik een menu in een menu
+  2. Hoe verander ik de tekstkleur van 1 menuitem
+  3. Hoe maak ik 2 verticale rijen van tekst naast elkaar
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -272,9 +284,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>continu bijhouden terwijl je werkt</summary>
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
+  
 
-  1. bron 1
-  2. bron 2
-  3. ...
-
+  1. https://www.w3schools.com/css/tryit.asp?filename=trycss_forms
+  2. https://www.w3schools.com/css/css_form.asp
+  3. https://www.w3schools.com/css/tryit.asp?filename=trycss_forms
+  4. https://www.w3schools.com/tags/tag_button.asp
+  5. https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button_css
+  6. https://css-tricks.com/making-css-animations-feel-natural/
+  7. https://www.geeksforgeeks.org/how-to-darken-an-image-using-css/#:~:text=The%20brightness()%20function%20can,the%20image%20by%20that%20percentage.
+  8. https://developer.mozilla.org/en-US/docs/Web/CSS/filter
 </details>
