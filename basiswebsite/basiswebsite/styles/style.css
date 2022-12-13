@@ -1,0 +1,492 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+button, summary {
+	cursor: pointer;
+}  
+
+img{
+	display: block;
+	width: 100%;
+}
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* Kleuren */
+	--color-text:#111;
+	--color-black: rgb(0, 0, 0);
+	--color-background:#eee;
+	--color-nav: #222;
+	--color-footerP: #8D867F;
+	--color-white:rgb(255, 255, 255);
+	--color-border:rgba(255,255,255,.1);
+	--color-Ptekst:#888888;
+	--Color-tekstvak:  rgba(199, 199, 199, 0.15);
+	--font-family: 'Quicksand', sans-serif;
+	--color-button-groen: #329561;
+	--color-button-hover-color: #206440;
+	--color-background-table:rgba(0, 0, 0, 0.01);
+	
+
+	/* Service*/
+	scroll-behavior: smooth;
+	
+	
+}
+
+
+@font-face {
+	font-family: var(--font-family);
+	src: url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+}
+
+
+body{
+
+margin: 0;
+	
+}
+
+button{
+	all: unset;
+}
+
+/* Hier heb ik kleur op de verkeerde manier gebruikt omdat ik niet het gewenste resultaat kreeg als ik het op je juiste manier deed */
+
+button:focus{
+	outline: 0.1em black solid;
+	}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav section button{
+	height: fit-content;
+	width: 5em;
+	height: 5em;
+}
+
+nav img{
+	margin-left: 1em;
+	width: 7em;
+	margin-right: 1em;
+}
+
+
+nav button img{
+width: 2em;
+}
+
+nav img:nth-of-type(2){
+	height: 3em;
+	width: 3em;
+}
+
+header nav > section{
+	inset: 0;
+	position: absolute;
+	transform: translateX(-100%);
+	background-color: var(--color-nav);
+	justify-content: space-between;
+}
+
+header nav > section> section{
+	background-color: var(--color-white);
+	display: flex;
+	justify-content: space-between;
+}
+
+
+header nav > section ul a{
+	font-family: var(--font-family);
+	font-weight: 600;
+	text-decoration: none;
+	color: var(--color-background);
+	font-size: 1.2em;
+}
+
+header nav > section details li a{
+	color: var(--color-button-groen);
+}
+
+header nav summary {
+    font-family: var(--font-family);
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-background);
+	font-size: 1.2em;
+	border-bottom: 1px solid var(--color-border);
+}
+
+
+
+
+header nav > section.menuOpen{
+	transform: translateX(0);
+}
+
+header nav section ul li{
+	border-bottom: 1px solid var(--color-border);
+	
+}
+
+main h1{
+	text-align: center;
+	font-family: var(--font-family);
+	font-weight: 600;
+}
+
+.home main h2{
+	font-family: var(--font-family);
+	font-weight: 600;
+	text-align: center;
+}
+
+.home main p{
+	font-family: var(--font-family);
+	font-weight: 400;
+	color: var(--color-Ptekst	);
+	padding: 0em 1em 1em 1em;
+
+}
+
+main section:first-of-type a{
+	display: block;
+	font-family: var(--font-family);
+	margin: auto;
+	width: fit-content;
+	margin-top: 1em;
+	color: var(--color-button-groen);
+	font-weight: 600;
+	text-decoration: none;
+
+}
+
+main section:nth-of-type(3) p{
+	text-align: center;
+	font-family: var(--font-family);
+	font-weight: 600;
+	font-size: 2.2em;
+	color: var(--color-black);
+
+}
+
+main section:nth-of-type(3) img{
+	height: 20em;
+	width: auto;
+	margin-top: 3em;
+	margin: 0 auto;
+	align-self: flex-end;
+	animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    animation-name: bounce-2;
+    animation-timing-function: ease;
+
+}
+
+@keyframes bounce-2 {
+	0%   { transform: translateY(0); }
+	50%  { transform: translateY(-100px); }
+	100% { transform: translateY(0); }
+}
+
+
+main section:nth-of-type(3){
+	background-color: var(--color-white);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+main section:nth-of-type(3) a{
+	color: var(--color-white);
+	font-family: var(--font-family);
+	font-weight: 600;
+	padding: 0.7em 5em;
+	background-color: var(--color-button-groen);
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.1em;
+
+	
+}
+
+
+
+main section:nth-of-type(4) button{
+	color: var(--color-white);
+	font-family: var(--font-family);
+	font-weight: 600;
+	margin-top: 0.8em;
+	padding: 0.7em 2em;
+	background-color: var(--color-button-groen);
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.1em;
+}
+
+	
+main section:nth-of-type(4) input{
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	background-color: var(--Color-tekstvak);
+	font-family: var(--font-family);
+	font-weight: 600;
+	font-size: 1em;
+	padding: 0.7em;
+	border: none;
+	
+}
+
+
+main section:nth-of-type(4){
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+main section:nth-of-type(4) h2{
+margin-top: 2em;
+font-weight: 900;
+	
+}
+
+
+footer{
+	background-color: var(--color-nav);
+	margin-top: 1em;
+	padding: 1em;
+	padding-top: 7em;
+}
+
+footer img{
+	margin-left: 1em;
+	width: 7em;
+}
+
+
+
+footer address li a{
+	color: var(--color-button-groen);
+}
+
+footer li:nth-of-type(4){
+	color: var(--color-white);
+}
+
+footer li:nth-of-type(7) a{
+	color: var(--color-button-groen);
+}
+
+
+
+
+footer a:nth-of-type(3){
+	color: var(--color-button-groen);
+}
+
+footer li{
+	font-family: var(--font-family);
+	color: var(--color-footerP);
+	margin-top: 1em;
+	font-size: 1em;
+	
+
+}
+
+footer a{
+	text-decoration: none;
+	font-family: var(--font-family);
+	font-weight: 400;
+	color: var(--color-footerP);
+}
+
+ul{
+	list-style: none;
+}
+
+
+
+
+  
+
+
+/****************/
+/* Pagina 2 */
+/****************/
+
+
+
+
+.reserveren header{
+	background-image: url("../images/MADIBA-filter.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+.reserveren header h1{
+	padding-block: 3em;
+    text-align: center;
+    color: var(--color-white);
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 3em;
+	margin-top: 0em
+}
+
+
+
+
+.reserveren main h2:first-of-type{
+	font-weight: 600;
+	padding-left: 0.5em;
+    font-family: var(--font-family);
+    font-size: 2em;
+}
+
+.reserveren main p{
+	font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--color-Ptekst);
+    padding-left: 1em;
+}
+
+.reserveren nav button:first-of-type{
+	margin-right: 2em;
+}
+
+.reserveren nav img:first-of-type{
+	margin-left: 2em;
+	margin-top: 2em;
+}
+
+
+.reserveren nav ul li a:nth-of-type(3){
+	color: var(--color-button-groen) ;
+}
+
+
+caption {
+	padding: 10px;
+	caption-side: bottom;
+}
+
+table {
+	 border-collapse: collapse;
+}
+
+tr:nth-child(even) {background: var(--color-background-table)}
+
+td {    
+	padding: 1em 3em 1em 3em;
+    color: var(--color-Ptekst);
+    font-family: var(--font-family);
+    font-size: 1.1em;
+}
+
+
+.reserveren main section:nth-of-type(2){
+	margin-top: 4em;
+
+}
+
+.reserveren main section:nth-of-type(2) p{
+	font-size: larger;
+	padding-left: 2em;
+
+
+}
+
+.reserveren main section:nth-of-type(3) p{
+	font-weight: 600;
+    padding-left: 0em;
+    font-family: var(--font-family);
+    font-size: 2em;
+}
+
+.reserveren main section:nth-of-type(3) form{
+    color: var(--color-Ptekst);
+    font-family: var(--font-family);
+    font-size: 1.1em;
+	width: 100%;
+}
+
+.reserveren main section:nth-of-type(3){
+	padding: 10%;
+}
+
+
+.reserveren input, select, textarea {
+	width: 100%;
+	padding: 1em;
+	border: none;
+	resize: vertical;
+	background-color: var(--Color-tekstvak);
+	border-radius: inherit;
+}
+
+.reserveren label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+
+.reserveren input[type=submit] {
+	background-color: var(--color-button-groen);
+	color: var(--color-white);
+	border: none;
+	border-radius: .2em;
+	float: right;
+}
+
+
+.reserveren main section:nth-of-type(3) input{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	font-family: var(--font-family);
+	font-weight: 600;
+	font-size: 1em;
+	padding: 0.7em;
+	
+}
+
+
+.reserveren main section:nth-of-type(4) p {
+    font-weight: 600;
+    padding-left: 0em;
+    font-family: var(--font-family);
+    font-size: 2.9em;
+	color: var(--color-black);
+	
+}
+
+
+
+
+.reserveren main section:nth-of-type(4) video {
+   width: 80%;
+   margin-top: -2em;
+}
+
