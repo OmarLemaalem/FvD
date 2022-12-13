@@ -196,26 +196,28 @@ Reserveren
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  
+  1. Afbeeldingen hebben robustere namen nodig
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  1. Navigatie met muis en toetsenbord gaat goed
+  
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+ 1. Met schokjes is het alsnog heel makkelijk door mijn site heen te navigeren
+ 2. Alleen kunnen sommige buttons wat groter.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+ 1. NVT
 
 </details>
 
@@ -268,6 +270,7 @@ Het lukt me niet om een menu in een menu te maken
 
 
 Ik heb geleerd hoe ik eenvoudig een mooie formulier in html en css kan maken.
+Maar ik heb vooral geleerd dat je met experimenteren al echt heel ver komt. Voortaan zal ik dus veel meer proberen in plaats van het op te geven en hulp inschakelen.
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
