@@ -242,10 +242,9 @@ Het lukt me niet om een menu in een menu te maken
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Mail in adress tag zetten
+  - Summary gebruiken voor dropdown
+  - Video toevoegen aan website
 
 </details>
 
@@ -259,19 +258,20 @@ Het lukt me niet om een menu in een menu te maken
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  ![127 0 0 1_5500_menukaart html(iPhone 12 Pro)](https://user-images.githubusercontent.com/118191221/207374552-950df9e1-1411-4bf5-b9b7-1cc22eba6857.png)
+
+  ![127 0 0 1_5500_index html (1)](https://user-images.githubusercontent.com/118191221/207375412-674fa74e-e5de-40d3-a95f-fb6d369bc4d2.png)
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Korte omschrijving met plaatjes<img width="271" alt="Schermafbeelding 2022-12-13 om 18 15 08" src="https://user-images.githubusercontent.com/118191221/207399759-c501cf9e-775f-462b-8c7e-3804b1ad3899.png">
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
+Ik heb geleerd hoe ik eenvoudig een mooie formulier in html en css kan maken.
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+Het navigeren door mijn website met de tab toets gaat niet helemaal soepel.
 </details>
 
 
@@ -294,4 +294,9 @@ Het lukt me niet om een menu in een menu te maken
   6. https://css-tricks.com/making-css-animations-feel-natural/
   7. https://www.geeksforgeeks.org/how-to-darken-an-image-using-css/#:~:text=The%20brightness()%20function%20can,the%20image%20by%20that%20percentage.
   8. https://developer.mozilla.org/en-US/docs/Web/CSS/filter
+  9. https://www.tutorialrepublic.com/html-tutorial/html-forms.php
+  10. https://www.w3schools.com
+  11. https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_video_all
+  12. https://www.w3schools.com/tags/tag_summary.asp
+  13. https://www.w3schools.com/tags/tag_address.asp
 </details>
